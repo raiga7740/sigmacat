@@ -1,3 +1,42 @@
 body {
   font-family: 'Orbitron', sans-serif;
 }
+
+.card {
+  background: #18181b;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #27272a;
+}
+
+.card h4 {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.card p {
+  margin-top: 8px;
+  color: #a1a1aa;
+}
+
+/* Floating Telegram */
+.telegram-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #22c55e;
+  color: black;
+  font-size: 24px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  transition: transform 0.2s;
+}
+
+.telegram-float:hover {
+  transform: scale(1.1);
+}
